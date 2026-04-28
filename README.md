@@ -1,6 +1,6 @@
-# lidar-workflows
 
-# 🛰️ lidar-lab
+
+# 🛰️ lidar-workflows
 
 > Jupyter notebooks for LiDAR point cloud processing — covering tutorials across applied fields and hands-on analysis of assigned datasets.
 
@@ -17,9 +17,10 @@ Tools used include [PDAL](https://pdal.io/), [laspy](https://laspy.readthedocs.i
 ## Structure
 
 ```
-lidar-lab/
+lidar-workflows/
 │
 ├── tutorials/
+|   |-- lidar_processing/           # IDW, CRS, creating DEMs wih various tools
 │   ├── hydrological_analysis/      # Flow direction, watersheds, depression filling
 │   ├── surface_plots/              # DSMs, DTMs, hillshading, 3D visualization
 │   └── .../                        # More fields added over time
@@ -66,8 +67,8 @@ pip install laspy[lazrs] numpy matplotlib open3d jupyter
 ### Run notebooks
 
 ```bash
-git clone https://github.com/yourusername/lidar-lab.git
-cd lidar-lab
+git clone https://github.com/tomasmej/lidar-workflows.git
+cd lidar-workflows
 jupyter notebook
 ```
 
