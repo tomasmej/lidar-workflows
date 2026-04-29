@@ -1,0 +1,21 @@
+# Core scientific stack used across the notebooks
+numpy
+matplotlib
+
+# Geospatial / raster / vector workflow
+rasterio
+rioxarray
+geopandas
+geemap
+
+# LiDAR / terrain processing
+whitebox
+whitebox-workflows
+
+# Notebook environment
+jupyter
+ipykernel
+
+# Installed separately in the README with conda-forge:
+# pdal
+# python-pdal
